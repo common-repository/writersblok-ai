@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'writersblock/writersblokai',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'a79a0d843be7cb87b18900a4e41011b2e04cba40',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'freemius/wordpress-sdk' => array(
+            'pretty_version' => '2.6.2',
+            'version' => '2.6.2.0',
+            'reference' => 'ea3a288e52ff74c755b3c1eb857f41c5a2d899e5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../freemius/wordpress-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'orhanerday/open-ai' => array(
+            'pretty_version' => '4.9.1',
+            'version' => '4.9.1.0',
+            'reference' => '2ccdf2f6b4287b9e570a1ddcf33083b7ad9f7e9c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../orhanerday/open-ai',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'writersblock/writersblokai' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a79a0d843be7cb87b18900a4e41011b2e04cba40',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
